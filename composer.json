@@ -1,0 +1,20 @@
+{
+  "name": "roost/laravel-testing-utils",
+  "description": "Laravel and PHPUnit related testing helpers",
+  "minimum-stability": "stable",
+  "license": "mit",
+  "authors": [
+    {
+      "name": "Blue Nest Digital",
+      "email": "software@bnest.co"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Roost\\Testing\\Laravel\\": "src"
+    }
+  },
+  "require": {
+    "phpunit/phpunit": "*"
+  }
+}
